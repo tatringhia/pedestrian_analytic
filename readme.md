@@ -6,6 +6,8 @@ This is a demo for my ML/AI capstone project. It is able to detect and track ped
 
 **How to use:**
 
+    * Download [detection model](https://drive.google.com/file/d/1a-F8CpPmf6e5Pr3hDVWhV3KhfynphQiI/view?usp=sharing) and [feature extraction model](https://drive.google.com/file/d/1a-F8CpPmf6e5Pr3hDVWhV3KhfynphQiI/view?usp=sharing) and save to directory /tracking/model_data
+    
     * Build docker images (only in first time)
         > docker-compose Build
 
