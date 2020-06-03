@@ -1,0 +1,23 @@
+version: "3"
+services:
+  postgres:
+    restart: always
+    build: ./database
+    ports:
+      - 5432:5432
+
+  analyzing:
+    restart: always
+    build: ./tracking
+    ports:
+      - 5000:5000
+    links:
+      - postgres
+
+  dashboard:
+    restart: always
+    build: ./dashboard
+    ports:
+      - 4040:4040
+    links:
+      - postgres

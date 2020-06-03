@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="row">
+
+    <div class="column">
+        <div class="container">
+            <br>
+            <p><b>Video information:</b></p>
+            {% for data in log_data %}
+                <p>Video name: {{data[0]}}</p>
+                <p>video time: {{data[3]}} seconds</p>
+                <p>Number of frames: {{data[4]}}</p>
+                <p>Inference time: {{data[5]}} seconds</p>
+            {% endfor %}
+        </div>
+
+        <div class="container">
+            <br>
+            <p><b>pedestrian information:</b></p>
+            <p>Number of pedestrian: {{num_pedestrian}}</p>
+            {% for person in pedestrian_info %}
+                <p>Person_{{person[0]}} appeared in {{person[1]}} seconds, main activity: {{person[2]}} </p>
+            {% endfor%}
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="container">
+            <br>
+            <p><b>Heat Map</b></p>
+            <img class="img-responsive" src="{{url_for('show_image', filename=heatmap_file)}}" alt="heatmap" width="480"/>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="container">
+    <br>
+    <a href="{{url_for('index')}}">Back to homepage</a>
+</div>
+
+
+{% endblock %}

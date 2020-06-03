@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container">
+    <br>
+    <p>{{error_code}} of video file <b>{{video_name}}</b> not found</p>
+</div>
+
+<div class="container">
+    <br>
+    <a href="{{url_for('index')}}">Back to homepage</a>
+</div>
+
+
+{% endblock %}

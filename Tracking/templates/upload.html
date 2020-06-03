@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Setup simple upload form  -->
+<div class="contianer">
+    <br>
+  <h6>File uploaded successfully</h6>
+    <br>
+</div>
+
+<div class="container">
+    <a href={{url_for("analyzing")}}>
+        <button>Analyzing</button>
+    </a>
+
+</div>
+{% endblock %}

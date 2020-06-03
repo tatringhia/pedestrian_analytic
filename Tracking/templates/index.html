@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- Setup simple upload form  -->
+<div class="container">
+    <form id="upload-form" action={{url_for("upload")}} method="POST" enctype="multipart/form-data" style="margin-top: 5%;">
+        <div class='container form-group'>
+            <input id="file-uploader" type="file" name="file" accept="video/*">
+            <br>
+            <br>
+            <input type="submit" value="Upload a video" id="upload-button">
+        </div>
+    </form>
+</div>
+{% endblock %}

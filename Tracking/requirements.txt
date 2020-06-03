@@ -1,0 +1,10 @@
+numpy
+Pillow
+tensorflow==1.14.0
+keras
+opencv-python
+opencv-contrib-python
+flask
+scipy
+scikit-learn==0.19.2
+psycopg2
