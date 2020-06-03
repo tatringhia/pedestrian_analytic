@@ -16,7 +16,7 @@ This is a demo for my ML/AI capstone project. It is able to detect and track ped
 
 * Run application: open web browser and go to
   > `localhost:5000` for uploading video and performing pedestrian analyzing\
-  > `localhost:4040` for viewing the dashboard analyzed video
+  > `localhost:4040` for viewing the dashboard of analyzed video
 
 * Stop docker container
   > docker-compose down
