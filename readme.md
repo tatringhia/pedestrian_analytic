@@ -1,9 +1,8 @@
-**Pedestrian analytic** is a demo for my ML/AI capstone project. It is able to detect and track
-pedestrians in video, analyze some basic activities, and generate motion heatmap.
+### Pedestrian analytic
+This is a demo for my ML/AI capstone project. It is able to detect and track pedestrians in video, analyze some basic activities, and generate motion heatmap. There are 2 parts:
 
-The application has 2 parts:\
-    * pedestrian analytic detects, tracks and analyzing pedestrians in uploaded video
-    * dashboard summarizes analytic information and show motion heatmap
+   * pedestrian analytic detects, tracks and analyzing pedestrians in uploaded video
+   * dashboard summarizes analytic information and show motion heatmap
 
 **How to use:**
 
