@@ -1,7 +1,7 @@
 ### Pedestrian analytic
 This is a demo for my ML/AI capstone project. It is able to detect and track pedestrians in video, analyze some basic activities, and generate motion heatmap. There are 2 parts:
 
-   * pedestrian analytic detects, tracks and analyzing pedestrians in uploaded video
+   * pedestrian_analytic detects, tracks and analyzing pedestrians in uploaded video
    * dashboard summarizes analytic information and show motion heatmap
 
 **How to use:**
@@ -15,7 +15,7 @@ This is a demo for my ML/AI capstone project. It is able to detect and track ped
   > docker-compose up
 
 * Run application: open web browser and go to
-  > `localhost:5000` for uploading video and perform pedestrian analyzing\
+  > `localhost:5000` for uploading video and performing pedestrian analyzing\
   > `localhost:4040` for viewing the dashboard analyzed video
 
 * Stop docker container
