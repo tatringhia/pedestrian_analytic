@@ -13,9 +13,9 @@ The application has 2 parts:\
     * Run docker container
         > docker-compose up
 
-    * Run application: open web browser and go to\
-        > `localhost:5000` for uploading video and perform pedestrian analyzing
-        > `localhost:4040` for viewing the dashboard analyzed video
+    * Run application: open web browser and go to
+        > "localhost:5000" for uploading video and perform pedestrian analyzing
+        > "localhost:4040" for viewing the dashboard analyzed video
 
     * Stop docker container
         > docker-compose down
