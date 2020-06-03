@@ -8,15 +8,15 @@ This is a demo for my ML/AI capstone project. It is able to detect and track ped
 
 * Download [detection model](https://drive.google.com/file/d/1a-F8CpPmf6e5Pr3hDVWhV3KhfynphQiI/view?usp=sharing) and [feature extraction model](https://drive.google.com/file/d/1a-F8CpPmf6e5Pr3hDVWhV3KhfynphQiI/view?usp=sharing) and save to directory /tracking/model_data
     
-    * Build docker images (only in first time)
-        > docker-compose Build
+* Build docker images (only in first time)
+  > docker-compose Build
 
-    * Run docker container
-        > docker-compose up
+* Run docker container
+  > docker-compose up
 
-    * Run application: open web browser and go to
-        > "localhost:5000" for uploading video and perform pedestrian analyzing
-        > "localhost:4040" for viewing the dashboard analyzed video
+* Run application: open web browser and go to
+  > "localhost:5000" for uploading video and perform pedestrian analyzing\
+  > "localhost:4040" for viewing the dashboard analyzed video
 
-    * Stop docker container
-        > docker-compose down
+* Stop docker container
+  > docker-compose down
