@@ -3,6 +3,8 @@ This is a demo for my ML/AI capstone project. It is able to detect and track ped
 
    * pedestrian_analytic detects, tracks and analyzing pedestrians of uploaded video
    * dashboard summarizes analytic information and show motion heatmap
+   
+ please visit readme.pdf for more details.
 
 **How to use:**
 
